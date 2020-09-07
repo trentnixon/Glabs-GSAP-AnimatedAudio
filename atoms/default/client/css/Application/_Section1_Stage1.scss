@@ -1,0 +1,43 @@
+.stage1{
+  
+    overflow: hidden;
+    padding: .5rem;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .ImageGallery{
+       position: relative;
+       height: 70vh;
+       width: 60%;
+        overflow: hidden;
+       .ImgContainer{
+        height: 600px;
+        width: 800px;
+        position: absolute;
+        overflow: hidden;
+        opacity: 0;
+            top:0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            width: 100%;
+        img{
+            width: 100%;
+            
+        }
+       }
+        
+    }
+    .PContainer{
+        width: 26%;
+        margin: 0 2%;
+        p{
+            opacity: 0;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.Audio{
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: stretch ;
+    align-content:center;  
+    padding: .5rem; 
+    background-color: transparent;
+    z-index: 100000;
+    visibility: hidden;
+ 
+    .Player{
+        flex-basis: 30%;
+        .controls{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            align-content: space-evenly;
+            width: 40vw;
+
+
+            button{
+                padding: 0;
+                width: auto;
+                margin: 0;
+                cursor: pointer;
+                border: none;
+                background-color: transparent;
+                outline:none;
+                .st0{fill:#131A1C;}
+                .st1{fill:#FFFFFF;}
+                .st2{fill:#69D1CA;}
+
+                svg{
+                    width: 4em;
+                    height: 4em;
+                    float: right;
+                }
+            }
+            button:hover{
+                .st0{fill:#69D1CA;}
+            }
+
+            button.small{
+                svg{
+                    width: 1.5em;
+                    height: 1.5em;
+                }
+               
+            }
+        }
+    }
+}
+@media only screen  and (max-width : 568px) {
+    .Audio .Player .controls button svg{
+        width: 3.5em;
+    }
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0px 0 0px 3px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}

@@ -1,0 +1,185 @@
+{
+    "data":"Json[APPLICATION] Completed",
+
+    "Meta":{
+        "Header":"Header.jpg",
+        "Title":"Title?",
+        "SubTitle":"Sub Title",
+        "StandFirst":"Standfirst if required",
+        "Sponsor":{
+            "Logo":"Logo.png",
+            "Label":"Label",
+            "href":"google.com"
+            },
+        "Body":[
+            {
+                "type":"p",
+                "Copy":"We all want to feed our dogs the best. But we’re only human - sometimes we might share a little something from our dinner plate or lunchbox that may not be best for them."
+            },
+            {
+                "type:":"P",
+                "Copy":"It’s important to be clear on what helps or hinders their wellbeing. But which foods are good and which are bad? Take our quiz and find out."
+            }
+        ]
+    },
+    "Quiz":[
+
+        {
+           "Question":"Egg: good or bad?",
+           "image":"Q1.jpg",
+           "Answers":[
+               { "Label":"Good", "Result":true },
+               { "Label":"Bad",  "Result":false}
+           ],
+           "Response":[
+               {
+                "Copy":"Eggs are safe for dogs and can be a good source of protein when included in high-quality pet foods. They’re included in pet foods as they’re really digestible and help to balance the amino acids that your dog gets.",
+                "image":"answerGood.jpg"
+                } 
+           ] 
+        },
+        
+        {
+            "Question":"Garlic: good or bad?",
+            "image":"Q2.jpg",
+            "Answers":[
+                { "Label":"Good", "Result":false},
+                {  "Label":"Bad", "Result":true }
+            ],
+            "Response":[
+                {
+                 "Copy":"Garlic is a big no-no for dogs and is the most toxic member of a family of plants which also includes onion, shallots, leeks and chives, so don’t feed these either. We might love using them to flavour our foods, but in dogs they can cause red blood cell damage, leading to anaemia.",
+                 "image":"answerBad.jpg"
+                 } 
+            ] 
+         },
+         {
+            "Question":"Apple: good or bad?",
+            "image":"Q3.jpg",
+            "Answers":[
+                { "Label":"Good", "Result":true},
+                { "Label":"Bad", "Result":false }
+            ],
+            "Response":[
+                {
+                 "Copy":"Apple isn’t a bad treat at all – a.  A piece makes a nice spot-rewards for good behaviour.  You’ll also find apple in some pet food recipes, incorporated for its micro-nutrient content and it adds some fibre to the mix.to add extra fibre to the mix.",
+                 "image":"answerGood.jpg"
+                 } 
+            ] 
+         },
+         {
+            "Question":"Cheese: good or bad?",
+            "image":"Q4.jpg",
+            "Answers":[
+                { "Label":"Good", "Result":false},
+                { "Label":"Bad", "Result":true }
+            ],
+            "Response":[
+                {
+                 "Copy":"This isn’t clear-cut. Cheese is often used as a training reward, but our official quiz answer is “bad” - primarily because we often give much more than we should. Cheese has some protein but quite a bit of fat, too: 100g of cheese contains about 400 calories, which is about 75% of a 10kg dog’s daily energy needs. If you do give them cheese, only give a morsel at a time.",
+                 "image":"answerBad.jpg"
+                 } 
+            ] 
+         },
+         {
+            "Question":"Macadamia nuts: good or bad?",
+            "image":"Q5.jpg",
+            "Answers":[
+                { "Label":"Good", "Result":false},
+                { "Label":"Bad", "Result":true }
+            ],
+            "Response":[
+                {
+                 "Copy":"While some nuts are relatively harmless, macadamia nuts can cause fever, vomiting,  fatigue and may cause damage to your dog's nervous system.  Call your vet for advice if your dog has eaten some.",
+                 "image":"answerBad.jpg"
+                 } 
+            ] 
+         },
+         {
+            "Question":"Carrots: good or bad?",
+            "image":"Q6.jpg",
+            "Answers":[
+                { "Label":"Good", "Result":true},
+                { "Label":"Bad", "Result":false }
+            ],
+            "Response":[
+                {
+                 "Copy":"Some high-quality pet foods include carrots in their ingredient lists, which indicates that they can be a nutritious addition to your dog’s diet. Some owners even use them as a healthy training treat or reward. They’re low in calories and contain some fibre, which can support the digestive process.",
+                 "image":"answerGood.jpg"
+                 } 
+            ] 
+         },
+         
+         {
+            "Question":"Chocolate: good or bad?",
+            "image":"Q7.jpg",
+            "Answers":[
+                { "Label":"Good", "Result":false},
+                { "Label":"Bad", "Result":true }
+            ],
+            "Response":[
+                {
+                 "Copy":"You may have heard that chocolate shouldn’t be fed to dogs. Dark chocolate in particular can be fatal. Cacao contains methylxanthines, which stimulate the heart and nervous system. Consumption of chocolate can result in vomiting and seizures, and in very serious cases can lead to respiratory failure or cardiac arrest. Eating chocolate is a common reason for vet visits, particularly over Easter. Call your vet for advice if your dog has eaten some.",
+                 "image":"answerBad.jpg"
+                 } 
+            ] 
+         },
+         {
+            "Question":"Fish: good or bad?",
+            "image":"Q8.jpg",
+            "Answers":[
+                { "Label":"Good", "Result":true},
+                { "Label":"Bad", "Result":false }
+            ],
+            "Response":[
+                {
+                 "Copy":"You’ve probably heard that omega fatty acids found in fish can be beneficial for a dog’s skin and coat, but they’re also reported to be good for brain, heart and joint health. Many pet foods incorporate fish as a highly digestible protein source that also offers our dogs a unique taste.",
+                 "image":"answerGood.jpg"
+                 } 
+            ] 
+         },
+         {
+            "Question":"Avocado: good or bad?",
+            "image":"Q9.jpg",
+            "Answers":[
+                { "Label":"Good", "Result":false},
+                { "Label":"Bad", "Result":true }
+            ],
+            "Response":[
+                {
+                 "Copy":"This is a tricky one, but on balance, avocados aren’t a great idea. More toxic to birds, they contain a toxin called persin, which can lead to heart failure. Persin is in higher concentrations in the leaves, bark and skin of the fruit, so definitely don’t let your dog chew those. Also troublesome is the fat content of avocado pulp, which can cause gastric upset (for example, in dogs with pancreatitis). Plus, the stone or pit isn’t easy to digest and can cause a blockage. Call your vet for advice if your dog has eaten some.",
+                 "image":"answerBad.jpg"
+                 } 
+            ] 
+         },
+         {
+            "Question":"Tomatoes: good or bad?",
+            "image":"Q10.jpg",
+            "Answers":[
+                { "Label":"Good", "Result":true},
+                { "Label":"Bad", "Result":false }
+            ],
+            "Response":[
+                {
+                 "Copy":"Tomatoes are on the good team. Tomato pomace or powders are frequently used in pet foods, as the combination of dried skin, pulp and seed give a nice blend of soluble and insoluble fibres. Tomatoes are also rich in antioxidants, which help the body at a cellular level.",
+                 "image":"answerGood.jpg"
+                 } 
+            ] 
+         }
+    ],
+
+    "ResultBreakdown":[
+        {
+            "score":[9,10],
+            "Review":"Nailed it.Super informed. Great job – you know what your dog needs you’re feeding your dog the right things to nourish and support their overall wellbeing. Find out more about how to feed a complete and balanced diet made from natural ingredients."
+        },
+        {
+            "score":[5,6,7,8],
+            "Review":"Almost an expert. You’re on the right track, but it’s vital toyou should always give your dog food that s supports a long and healthy life. Find out more about how to feed a complete and balanced diet made that understands the from natural ingredients your dog needs."
+        },
+        {
+            "score":[0,1,2,3,4],
+            "Review":"More to learn. What you feed your dog is critical to their wellbeing. Find out more about how to feed a complete and balanced diet that includes the best natural ingredients.made from natural ingredients."
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "data":"Json[APPLICATION] Completed",
+
+    "Meta":{
+        "Header":"Header.jpg",
+        "Title":"Title?",
+        "SubTitle":"Sub Title",
+        "StandFirst":"Standfirst if required",
+        "Sponsor":{
+            "Logo":"Logo.png",
+            "Label":"Label",
+            "href":"google.com"
+            },
+        "Body":[
+            {
+                "type":"p",
+                "Copy":""
+            },
+            {
+                "type:":"P",
+                "Copy":""
+            }
+        ]
+    }
+}

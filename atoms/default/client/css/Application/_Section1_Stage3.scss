@@ -1,0 +1,59 @@
+.stage3{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    overflow: hidden;
+
+    .Parallax{
+        position: absolute;
+        visibility: hidden;
+        height:100vh;
+        width: 100vw;
+        background-color: #c8ccd2;
+    
+    .layer{
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+    .layer-overlay {
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_overlay.png');
+        z-index: 200;
+    }   
+
+    .layer-4 {
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_01.png');
+        z-index: 190;
+    
+            }
+   
+   
+    .layer-3 {
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_man.png');
+            background-position: right bottom;
+            z-index: 150;
+            }
+            .layer-2 {
+                background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_02.png');
+                z-index: 120;
+            }
+            .layer-1 {
+                background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_03.png');
+                    background-position: left bottom;
+                    z-index: 110;
+                    }
+
+            .layer-bg {
+                background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/ilu_bg.jpg');
+                z-index: 100;
+            }
+        }
+}
